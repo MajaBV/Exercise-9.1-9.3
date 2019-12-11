@@ -5,7 +5,7 @@ while True:
     km = float(input("Kilometers: "))
 
     miles = km * 0.621371192
-    print(miles)
+    print("{} km = {} miles".format(km, miles))
 
     search = input("Do you want another conversion (y/n): ")
     if search.lower() != "yes" and search.lower() != "y":
