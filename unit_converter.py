@@ -1,8 +1,7 @@
-print("Hello there. This is kilometers into miles converter.")
+print("Hello there. This is kilometers to miles converter. Please enter below the number of kilometers that you'd like to convert into miles.")
 
 while True:
-    print("Please enter below the number of kilometers that you'd like to convert into miles.")
-    km = (input("Kilometers: "))
+    km = (input("Km: "))
     km = float(km.replace(",", "."))
     miles = km * 0.621371192
 
